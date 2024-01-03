@@ -1236,6 +1236,9 @@
             <format attr='border-width' data-class='subtotal' value='0' />
             <format attr='border-style' data-class='subtotal' value='none' />
           </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
           <style-rule element='worksheet'>
             <format attr='display-field-labels' scope='cols' value='false' />
           </style-rule>
@@ -1354,7 +1357,6 @@
                   <groupfilter function='member' level='[none:ingredient_name:nk]' member='&quot;Turkey&quot;' />
                   <groupfilter function='member' level='[none:ingredient_name:nk]' member='&quot;Vanilla&quot;' />
                   <groupfilter function='member' level='[none:ingredient_name:nk]' member='&quot;Vinegar&quot;' />
-                  <groupfilter function='member' level='[none:ingredient_name:nk]' member='&quot;walnut&quot;' />
                   <groupfilter function='member' level='[none:ingredient_name:nk]' member='&quot;Walnut&quot;' />
                   <groupfilter function='member' level='[none:ingredient_name:nk]' member='&quot;Yogurt&quot;' />
                 </groupfilter>
@@ -1384,6 +1386,9 @@
           </style-rule>
           <style-rule element='label'>
             <format attr='text-format' field='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
           </style-rule>
         </style>
         <panes>
@@ -1445,7 +1450,11 @@
           </slices>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
@@ -1600,6 +1609,9 @@
             <format attr='font-family' field='[federated.0395w840jvhpvv10tggh30y9lq50].[pcto:ctd:recipe_id:qk:2]' value='Tableau Bold' />
             <format attr='font-weight' field='[federated.0395w840jvhpvv10tggh30y9lq50].[pcto:ctd:recipe_id:qk:2]' value='bold' />
           </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
           <style-rule element='worksheet'>
             <format attr='display-field-labels' scope='cols' value='false' />
             <format attr='display-field-labels' scope='rows' value='false' />
@@ -1707,6 +1719,9 @@
             <format attr='stroke-size' scope='cols' value='0' />
             <format attr='line-visibility' scope='cols' value='off' />
           </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
           <style-rule element='worksheet'>
             <format attr='display-field-labels' scope='cols' value='false' />
             <format attr='display-field-labels' scope='rows' value='false' />
@@ -1746,8 +1761,8 @@
               <style-rule element='mark'>
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-color' value='#f28e2b' />
                 <format attr='size' value='0.88955801725387573' />
+                <format attr='mark-color' value='#f28e2b' />
               </style-rule>
             </style>
           </pane>
@@ -1897,6 +1912,9 @@
             <encoding attr='size-bar' field='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
             <encoding attr='color' field='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' num-steps='10' palette='sunrise_sunset_diverging_10_0' reverse='true' type='interpolated' />
           </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
@@ -1984,6 +2002,9 @@
         <style>
           <style-rule element='label'>
             <format attr='font-family' field='[federated.0395w840jvhpvv10tggh30y9lq50].[none:ingredient_name:nk]' value='Gill Sans MT' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
           </style-rule>
         </style>
         <panes>
@@ -2268,6 +2289,9 @@
           <style-rule element='label'>
             <format attr='text-format' field='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' value='n#,##0.00;-#,##0.00' />
           </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
@@ -2275,6 +2299,11 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
         <rows>[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]</rows>
@@ -2379,6 +2408,9 @@
           </style-rule>
           <style-rule element='label'>
             <format attr='text-format' field='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
           </style-rule>
         </style>
         <panes>
@@ -2490,6 +2522,9 @@
           <style-rule element='label'>
             <format attr='text-format' field='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' value='n#,##0.00;-#,##0.00' />
           </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
@@ -2499,7 +2534,7 @@
             <mark class='Automatic' />
             <style>
               <style-rule element='mark'>
-                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-color' value='#b07aa1' />
               </style-rule>
             </style>
           </pane>
@@ -2897,6 +2932,9 @@
   <dashboards>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Average Recipe Rating and Top 10 Ingredients'>
       <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f5f5f5' />
+        </style-rule>
         <style-rule element='dash-title'>
           <format attr='text-align' value='center' />
           <format attr='font-size' value='24' />
@@ -3085,7 +3123,11 @@
       <simple-id uuid='{6D5D16D1-4A06-4E4F-8B9C-9EC6098A5AD0}' />
     </dashboard>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Food Groups and Ingredients by Source'>
-      <style />
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f5f5f5' />
+        </style-rule>
+      </style>
       <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
       <datasources>
         <datasource caption='joined_recipe2' name='federated.0395w840jvhpvv10tggh30y9lq50' />
@@ -3123,7 +3165,7 @@
               </zone>
               <zone fixed-size='638' h='92666' id='4' is-fixed='true' param='vert' type-v2='layout-flow' w='39875' x='59625' y='6445'>
                 <zone h='84555' id='7' name='Ingredients by Reviews and Rating' w='39875' x='59625' y='6445'>
-                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='50' type-h='cell' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3224,7 +3266,11 @@
           </formatted-text>
         </title>
       </layout-options>
-      <style />
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f5f5f5' />
+        </style-rule>
+      </style>
       <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
       <datasources>
         <datasource caption='joined_recipe2' name='federated.0395w840jvhpvv10tggh30y9lq50' />
@@ -3270,7 +3316,7 @@
                       </zone-style>
                     </zone>
                     <zone h='92777' id='25' name='Ingredients!' w='71563' x='500' y='6334'>
-                      <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                      <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='85' type-h='cell' type-w='cell' />
                       <zone-style>
                         <format attr='border-color' value='#000000' />
                         <format attr='border-style' value='none' />
@@ -3343,7 +3389,11 @@
           </formatted-text>
         </title>
       </layout-options>
-      <style />
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f5f5f5' />
+        </style-rule>
+      </style>
       <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
       <datasources>
         <datasource caption='joined_recipe2' name='federated.0395w840jvhpvv10tggh30y9lq50' />
@@ -3597,7 +3647,7 @@
       <simple-id uuid='{C1CDD3B5-B991-4D5B-AFCA-F9EA37E6DC77}' />
     </dashboard>
   </dashboards>
-  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='37'>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='30'>
     <window class='worksheet' name='Recipe Source and Avg Rating'>
       <cards>
         <edge name='left'>
@@ -3734,10 +3784,10 @@
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='2147483647'>
+          <strip size='38'>
             <card type='columns' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='38'>
             <card type='rows' />
           </strip>
           <strip size='30'>
@@ -4043,10 +4093,10 @@
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='2147483647'>
+          <strip size='38'>
             <card type='columns' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='38'>
             <card type='rows' />
           </strip>
           <strip size='30'>
@@ -4066,10 +4116,10 @@
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='2147483647'>
+          <strip size='38'>
             <card type='columns' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='38'>
             <card type='rows' />
           </strip>
           <strip size='30'>
@@ -4079,7 +4129,7 @@
       </cards>
       <simple-id uuid='{8803489F-BE3A-479A-9B62-B6EC460810DD}' />
     </window>
-    <window class='worksheet' name='Top 10 Ingredients of High Rated Recipes (4)'>
+    <window class='worksheet' maximized='true' name='Top 10 Ingredients of High Rated Recipes (4)'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4089,10 +4139,10 @@
           </strip>
         </edge>
         <edge name='top'>
-          <strip size='2147483647'>
+          <strip size='38'>
             <card type='columns' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='38'>
             <card type='rows' />
           </strip>
           <strip size='30'>
@@ -4114,7 +4164,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='24' />
       <simple-id uuid='{AD2657B2-5B08-494A-9245-2631640BFE08}' />
     </window>
     <window class='dashboard' name='Food Groups and Ingredients by Source'>
@@ -4126,10 +4176,10 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='6' />
+      <active id='11' />
       <simple-id uuid='{DD31FA78-92CA-4B48-9E46-8CD63EEF5B6F}' />
     </window>
-    <window class='dashboard' maximized='true' name='Ingredients in Top and Bottom Recipes'>
+    <window class='dashboard' name='Ingredients in Top and Bottom Recipes'>
       <viewpoints>
         <viewpoint name='Bottom 10 Ingredients of Low Rated Recipes'>
           <zoom type='entire-view' />
@@ -4144,7 +4194,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='14' />
+      <active id='-1' />
       <simple-id uuid='{927ACCF4-65C0-41B7-A610-47B1CC55C779}' />
     </window>
     <window class='dashboard' name='Ingredients by Recipe and URLs'>
@@ -4154,7 +4204,7 @@
         </viewpoint>
         <viewpoint name='Recipes and URLs' />
       </viewpoints>
-      <active id='25' />
+      <active id='-1' />
       <simple-id uuid='{4F9A1F17-AF56-4B2D-8180-FF5015CC8C08}' />
     </window>
     <window class='dashboard' name='Story 2'>
