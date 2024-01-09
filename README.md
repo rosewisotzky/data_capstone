@@ -1,5 +1,5 @@
 
-# Rose's Capstone (name TBD) 
+# Data to Dish
 ## 	Executive Summary
 My capstone will investigate if there are any patterns in ingredients used in top rated recipes from All Recipes and the Food Network. We will look at recipes scraped from both sources and will look at which ingredients tend to appear in high rated recipes and which ingredients appear in lower rated recipes. 
 

@@ -1368,7 +1368,7 @@
             <max>3.0</max>
           </filter>
           <filter class='categorical' column='[federated.0395w840jvhpvv10tggh30y9lq50].[none:source:nk]' filter-group='5'>
-            <groupfilter function='level-members' level='[none:source:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;food network&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <shelf-sorts>
             <shelf-sort-v2 dimension-to-sort='[federated.0395w840jvhpvv10tggh30y9lq50].[none:ingredient_name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' shelf='columns' />
@@ -2270,7 +2270,7 @@
             <min>3.0</min>
           </filter>
           <filter class='categorical' column='[federated.0395w840jvhpvv10tggh30y9lq50].[none:source:nk]' filter-group='5'>
-            <groupfilter function='level-members' level='[none:source:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;food network&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <shelf-sorts>
             <shelf-sort-v2 dimension-to-sort='[federated.0395w840jvhpvv10tggh30y9lq50].[none:ingredient_name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' shelf='columns' />
@@ -2301,7 +2301,7 @@
             <mark class='Automatic' />
             <style>
               <style-rule element='mark'>
-                <format attr='mark-color' value='#b07aa1' />
+                <format attr='mark-color' value='#b0536c' />
               </style-rule>
             </style>
           </pane>
@@ -2390,7 +2390,7 @@
             <max>3.0</max>
           </filter>
           <filter class='categorical' column='[federated.0395w840jvhpvv10tggh30y9lq50].[none:source:nk]' filter-group='5'>
-            <groupfilter function='level-members' level='[none:source:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;food network&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <shelf-sorts>
             <shelf-sort-v2 dimension-to-sort='[federated.0395w840jvhpvv10tggh30y9lq50].[none:ingredient_name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' shelf='columns' />
@@ -2503,7 +2503,7 @@
             <min>3.0</min>
           </filter>
           <filter class='categorical' column='[federated.0395w840jvhpvv10tggh30y9lq50].[none:source:nk]' filter-group='5'>
-            <groupfilter function='level-members' level='[none:source:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:source:nk]' member='&quot;food network&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <shelf-sorts>
             <shelf-sort-v2 dimension-to-sort='[federated.0395w840jvhpvv10tggh30y9lq50].[none:ingredient_name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0395w840jvhpvv10tggh30y9lq50].[avg:rating:qk]' shelf='columns' />
@@ -2534,7 +2534,7 @@
             <mark class='Automatic' />
             <style>
               <style-rule element='mark'>
-                <format attr='mark-color' value='#b07aa1' />
+                <format attr='mark-color' value='#b0536c' />
               </style-rule>
             </style>
           </pane>
@@ -2677,7 +2677,7 @@
             <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0395w840jvhpvv10tggh30y9lq50].[Action (Ingredient Name)]'>
-            <groupfilter function='level-members' level='[ingredient_name]' user:ui-action-filter='[Action6_1D7F30F7417D424DB01AA169995096E3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[ingredient_name]' member='&quot;Chicken&quot;' user:ui-action-filter='[Action6_1D7F30F7417D424DB01AA169995096E3]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.0395w840jvhpvv10tggh30y9lq50].[Action (Ingredient Name)]</column>
@@ -3315,8 +3315,8 @@
                         <format attr='margin' value='4' />
                       </zone-style>
                     </zone>
-                    <zone h='92777' id='25' name='Ingredients!' w='71563' x='500' y='6334'>
-                      <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='85' type-h='cell' type-w='cell' />
+                    <zone h='92777' id='25' name='Ingredients!' show-title='false' w='71563' x='500' y='6334'>
+                      <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
                       <zone-style>
                         <format attr='border-color' value='#000000' />
                         <format attr='border-style' value='none' />
@@ -3647,7 +3647,7 @@
       <simple-id uuid='{C1CDD3B5-B991-4D5B-AFCA-F9EA37E6DC77}' />
     </dashboard>
   </dashboards>
-  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='30'>
+  <windows pres-mode='true' saved-dpi-scale-factor='1.25' source-height='30'>
     <window class='worksheet' name='Recipe Source and Avg Rating'>
       <cards>
         <edge name='left'>
@@ -4129,7 +4129,7 @@
       </cards>
       <simple-id uuid='{8803489F-BE3A-479A-9B62-B6EC460810DD}' />
     </window>
-    <window class='worksheet' maximized='true' name='Top 10 Ingredients of High Rated Recipes (4)'>
+    <window class='worksheet' name='Top 10 Ingredients of High Rated Recipes (4)'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4164,7 +4164,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='24' />
+      <active id='17' />
       <simple-id uuid='{AD2657B2-5B08-494A-9245-2631640BFE08}' />
     </window>
     <window class='dashboard' name='Food Groups and Ingredients by Source'>
@@ -4176,7 +4176,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='11' />
+      <active id='6' />
       <simple-id uuid='{DD31FA78-92CA-4B48-9E46-8CD63EEF5B6F}' />
     </window>
     <window class='dashboard' name='Ingredients in Top and Bottom Recipes'>
@@ -4194,17 +4194,17 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='13' />
       <simple-id uuid='{927ACCF4-65C0-41B7-A610-47B1CC55C779}' />
     </window>
-    <window class='dashboard' name='Ingredients by Recipe and URLs'>
+    <window class='dashboard' maximized='true' name='Ingredients by Recipe and URLs'>
       <viewpoints>
         <viewpoint name='Ingredients!'>
           <zoom type='entire-view' />
         </viewpoint>
         <viewpoint name='Recipes and URLs' />
       </viewpoints>
-      <active id='-1' />
+      <active id='25' />
       <simple-id uuid='{4F9A1F17-AF56-4B2D-8180-FF5015CC8C08}' />
     </window>
     <window class='dashboard' name='Story 2'>
